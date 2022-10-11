@@ -3,6 +3,10 @@
     --color2: #9c22e8;
 }
 
+body {
+    background-color: #eee;
+}
+
 header, section {
     padding: 100px 0;
     /* background: rgb(2,0,36);
@@ -83,7 +87,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1),
 }
 
 .color1 {
-    color: #4bf4f4b7;
+    color: #34e0e0f0;
 }
 
 .color2 {
@@ -98,7 +102,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1),
     background-color: var(--color2);
 }
 
+.jobs {
+    background-color: #eee;
+}
 
+.jobs i {
+    font-size: 25px;
+    color: var(--color2);
+}
+
+.itd_circle {
+    margin: 15px auto 15px;
+    
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color2);
+    margin: 15px auto 30px;
+}
 
 
 .a_footer {
