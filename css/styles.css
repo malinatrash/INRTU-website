@@ -4,7 +4,11 @@
 }
 
 body {
-  background-color: #eee;
+    background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+}
+
+main {
+    background-color: #eee;
 }
 
 header,
