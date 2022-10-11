@@ -1,0 +1,81 @@
+header, footer, section {
+    padding: 100px 0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,210,159,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+header {
+    padding: 200px 0;
+}
+
+.sub-text {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.itd_play {
+    background-color: rgb(101, 44, 207) 0%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    margin: 30px auto 30px;
+    transition: all 0.2s ease;
+
+}
+
+.itd_play:hover {
+    background-color: rgb(153, 249, 241);
+}
+
+.itd_contact {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+}
+/*правило для элементов main*/
+main {
+        /* margin-left: 30px;
+        margin-right: 30px; */
+    }
+
+    /*правило для элементов относящихся к классу a_footer*/
+    .a_footer {
+        display: block;
+    }
+    /* h1 {
+        text-align: center;
+    } */
+    /*подключаем картинку для шапки*/
+    /* header {
+        background-image: linear-gradient(
+            to bottom,
+            rgb(20, 236, 229),
+            rgba(16, 16, 159, 0.899)
+            ), url("img/bg.png"
+        );
+        background-size: 100%;
+        max-width: 100%;
+        max-height: 500px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    } */
+
+
+    adress {
+        text-align: center;
+    }
+
+    .flex_ul { 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .flex_item {
+        flex-basis: content;
+        flex-grow: 0;
+        margin-right: 10px;
+    }
