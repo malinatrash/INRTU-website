@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+    background-color: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
 }
 
 main {
@@ -209,7 +209,7 @@ adress {
 }
 
 .card-6 {
-    background: radial-gradient(#d8ddff, #fbc02b);
+    background: radial-gradient(#c3caff, #ffb700);
   }
 
 @media (max-width: 1600px) {
