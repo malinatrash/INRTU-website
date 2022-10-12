@@ -11,6 +11,11 @@ main {
     background-color: #eee;
 }
 
+.map iframe {
+  /* height: 100% */
+  width: 100%
+}
+
 header,
 section {
   padding: 100px 0;
